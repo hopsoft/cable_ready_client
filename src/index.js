@@ -129,7 +129,7 @@ const DOMOperations = {
   },
 };
 
-export const perform = operations => {
+const perform = operations => {
   for (let name in operations) {
     if (operations.hasOwnProperty(name)) {
       const entries = operations[name];
@@ -144,3 +144,5 @@ export const perform = operations => {
     }
   }
 };
+
+export default { perform };
