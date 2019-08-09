@@ -1,5 +1,5 @@
 {
-  "name": "cable_ready_client",
+  "name": "cable_ready",
   "version": "3.0.4",
   "main": "./src/index.js",
   "repository": {
